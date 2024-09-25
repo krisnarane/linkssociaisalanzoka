@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+
+html,
+body {
+    background-color: 	#392e5c;
+    color: #9146ff;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15 px;
+    font-family: 'Figtree', Arial, sans-serif;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+.container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#img {
+    border-radius: 100px;
+    
+}
+
+#nome {
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-family: "M PLUS 1 Code", monospace;
+    color: #fff;
+
+}
+
+#país {
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+ 
+#titulo2 {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+/* estilo dos btaaooo */
+.botoes .btn {
+    display: block;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* hoverss*/
+.botoes .btn:hover,
+.botoes .btn:focus {
+    background-color: #a4ff00;
+    color: #111;
+}
+
+.botoes .btn:focus {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 400px) {
+    .botoes a {
+      float: none;
+      width: 85%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
